@@ -13,8 +13,6 @@ categories: DEV
 
 # Documento de Arquitetura
 
-v0.1
-
 Sumário
 ----------------
 
