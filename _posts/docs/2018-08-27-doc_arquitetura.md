@@ -5,6 +5,12 @@ layout: post
 categories: DEV
 ---
 
+## Histórico de Revisões
+
+|Data|Versão|Descrição|Autor|
+| --- | --- | --- | --- |
+|28/08/2018|0.1|Criação da estrutura do documento|Ingrid Soares|
+
 # Documento de Arquitetura
 
 v0.1
@@ -33,13 +39,13 @@ Sumário
    * 5.1. [Diagrama de Pacotes](#51-diagrama)
    * 5.2. [Pacotes de Design Significativos do Ponto de Vista da Arquitetura](#52-pacotes)
    
-* 7 .  [Arquitetura dos Serviços e visão de Implementação](#8-arquitetura)
-   * 7.1. [Micro Serviços e Camadas](#71-microservicos)
+* 6 .  [Arquitetura dos Serviços e visão de Implementação](#6-arquitetura)
+   * 6.1. [Micro Serviços e Camadas](#61-microservicos)
 
-* 8 .  [Tamanho e Desempenho](#8-tamanho)
-    * 8.1. [Visão de Dados](#81-visao)
+* 7 .  [Tamanho e Desempenho](#7-tamanho)
+    * 7.1. [Visão de Dados](#71-visao)
 
-* 9 . [Qualidade](#10-qualidade)
+* 8 . [Qualidade](#8-qualidade)
 
 
 
@@ -49,3 +55,38 @@ Sumário
 
 ### 1.2 Escopo
 
+### 1.3 Definições, acrônimos e abreviações
+
+### 1.4 Referências
+
+### 1.5 Visão Geral
+
+## 2. Representação da Arquitetura
+
+### 2.1 Representação da Arquitetura da API
+
+### 2.2 Representação da Arquitetura do Frontend
+
+## 3. Metas e Restrições da Arquitetura
+
+## 4. Visão de Casos de Uso
+
+### 4.1 Atores
+
+### 4.2 Realizações de Casos de Uso
+
+## 5. Visão Geral
+
+### 5.1 Diagrama de Pacotes
+
+### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
+
+## 6. Arquitetura dos Serviços e visão de Implementação
+
+### 6.1 Micro Serviços e Camadas
+
+## 7. Tamanho e Desempenho
+
+### 7.1 Visão de Dados
+
+## 8. Qualidade
