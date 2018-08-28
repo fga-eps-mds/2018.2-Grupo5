@@ -33,13 +33,13 @@ Sumário
    * 5.1. [Diagrama de Pacotes](#51-diagrama)
    * 5.2. [Pacotes de Design Significativos do Ponto de Vista da Arquitetura](#52-pacotes)
    
-* 7.  [Arquitetura dos Serviços e visão de Implementação](#8-arquitetura)
+* 7 .  [Arquitetura dos Serviços e visão de Implementação](#8-arquitetura)
    * 7.1. [Micro Serviços e Camadas](#71-microservicos)
 
-* 8.  [Tamanho e Desempenho](#8-tamanho)
+* 8 .  [Tamanho e Desempenho](#8-tamanho)
     * 8.1. [Visão de Dados](#81-visao)
 
-* 9 [Qualidade](#10-qualidade)
+* 9 . [Qualidade](#10-qualidade)
 
 
 
