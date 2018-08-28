@@ -15,11 +15,11 @@ Sumário
 * 1 .  [Introdução](#1-introdução)
     * 1.1. [Finalidade](#11-finalidade)
     * 1.2. [Escopo](#12-escopo)
-    * 1.3 [Definições, acrônimos e abreviações](#13- definições, acrônimos e abreviações)
+    * 1.3 [Definições, acrônimos e abreviações](#13- definições)
     * 1.4. [Referências](#14-referências)
-    * 1.4. [Visão Geral](#15-visão geral)
+    * 1.4. [Visão Geral](#15-visão)
     
-* 2 .  [Representação da Arquitetura](#2-representação da arquitetura)
+* 2 .  [Representação da Arquitetura](#2-representação)
    * 2.1. [Representação da Arquitetura da API](#21-representação da arquitetura da api)
    * 2.2. [Representação da Arquitetura do Frontend](#21-representação da arquitetura do frontend)
    
