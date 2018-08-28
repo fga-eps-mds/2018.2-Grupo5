@@ -29,19 +29,17 @@ Sumário
    * 4.1. [Atores](#41-atores)
    * 4.2. [Realizações de Casos de Uso](#42-realizações)
    
-* 5 .  [Visão Lógica](#5-visão)
-   * 5.1. [Visão Geral](#51-visão)
+* 5 .  [Visão Geral](#5-visão)
+   * 5.1. [Diagrama de Pacotes](#51-diagrama)
    * 5.2. [Pacotes de Design Significativos do Ponto de Vista da Arquitetura](#52-pacotes)
    
-* 6.  [Visão de Processos](#6-visão)
+* 7.  [Arquitetura dos Serviços e visão de Implementação](#8-arquitetura)
+   * 7.1. [Micro Serviços e Camadas](#71-microservicos)
 
-* 7.  [Visão de Implantação](#7-visão)
+* 8.  [Tamanho e Desempenho](#8-tamanho)
+    * 8.1. [Visão de Dados](#81-visao)
 
-* 8.  [Visão de Implementação](#8-visão)
-
-* 9.  [Tamanho e Desempenho](#9-tamanho)
-
-* 10 [Qualidade](#10-qualidade)
+* 9 [Qualidade](#10-qualidade)
 
 
 
