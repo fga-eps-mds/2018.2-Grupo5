@@ -1,7 +1,5 @@
- FROM python:3.6
- ENV PYTHONUNBUFFERED 1
- RUN mkdir /code
- WORKDIR /code
- ADD requirements.txt /code/
- RUN pip install -r requirements.txt
- ADD . /code/
+FROM jekyll/jekyll:pages
+
+RUN apk add --no-cache build-base gcc bash cmake git
+
+EXPOSE 4000
