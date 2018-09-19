@@ -3,13 +3,17 @@ language: python
 python:
   - "3.6"
 
-before_install: docker-compose build
+before_install: 
+  - sudo rm /usr/local/bin/docker-compose
+  - sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose 
+  - sudo chmod +x /usr/local/bin/docker-compose
+  - docker-compose build
 
 script: 
   - docker-compose up -d
   - sleep 10
-  - docker-compose run web coverage run --source=. manage.py test
+  - docker-compose run crossweb coverage run --source=. manage.py test
+  - docker-compose run crossweb coverage report
 
 after_success:
-  - coveralls
-
+  - docker-compose run crossweb coveralls
