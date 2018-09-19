@@ -4,12 +4,12 @@ services:
   crossdb:
     image: mongo
     ports:
-      - "27017:27017"
+      - "27019:27017"
     networks:
       - proxynet
   crossweb:
     build: .
-    command: python3 manage.py runserver 0.0.0.0:8005
+    command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:

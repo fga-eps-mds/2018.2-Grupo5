@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'GameColorBI.API',
+    'GameColorBI.importdata',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'mongo',
-        'HOST': 'db'
+        'HOST': 'crossdb'
     }
 }
 
