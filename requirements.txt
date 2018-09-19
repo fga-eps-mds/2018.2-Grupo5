@@ -1,5 +1,7 @@
-Django>=2.0
+Django==2.1.1
 psycopg2
 coverage
 coveralls
 djongo
+djangorestframework==3.8.2
+model_mommy

@@ -1,18 +1,26 @@
-version: '3'
+version: '3.5'
 
 services:
-  db:
+  crossdb:
     image: mongo
     ports:
       - "27017:27017"
-  web:
+    networks:
+      - proxynet
+  crossweb:
     build: .
-    command: python3 manage.py runserver 0.0.0.0:8000
+    command: python3 manage.py runserver 0.0.0.0:8005
     volumes:
       - .:/code
     ports:
-      - "8000:8000"
+      - "8005:8000"
     depends_on:
-      - db
+      - crossdb
+    networks:
+      - proxynet
+    environment:
+      - COVERALLS_REPO_TOKEN
 
-
+networks:
+  proxynet:
+    name: GamesBI-network
