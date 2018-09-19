@@ -43,7 +43,7 @@ migrate:
 
 fixture:
 	# Generate fixtures saved upon importdata models
-	sudo docker-compose run crossweb python manage.py dumpdata importdata --format json > GameColorBI/importdata/fixtures/data.json
+	sudo docker-compose run crossweb python manage.py dumpdata importdata --format json > CrossData/importdata/fixtures/data.json
 
 loaddata:
 	# load fixtures saved upon importdata models
