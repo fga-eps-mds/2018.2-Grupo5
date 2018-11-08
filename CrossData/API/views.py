@@ -159,7 +159,10 @@ class GetGraphicData(APIView):
 		dates = []
 		infos = InfoSteam.objects.filter(game=game)
 		for info in infos:
-			dates.append(str(info.date))
+			date = (
+				str(info.date.date().year)+"/"+str(info.date.date().month)+"/"+str(info.date.date().day)
+			)
+			dates.append(date)
 
 		return dates
 
